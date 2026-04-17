@@ -1,0 +1,4 @@
+discord:
+  # Fill these values in the server config.yml, not in source code.
+  token: ""
+  guild-id: ""

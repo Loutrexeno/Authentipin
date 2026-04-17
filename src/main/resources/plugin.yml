@@ -1,0 +1,15 @@
+name: Authentipin
+version: ${version}
+main: fr.authentipin.AuthentipinPlugin
+api-version: '1.21'
+author: NilixDev
+description: Discord verification + PIN to join the server
+commands:
+  authentipin:
+    description: Authentipin admin commands
+    usage: /authentipin unlink <username|uuid> <reason>
+    permission: authentipin.admin
+permissions:
+  authentipin.admin:
+    description: Allows managing Authentipin links
+    default: op
